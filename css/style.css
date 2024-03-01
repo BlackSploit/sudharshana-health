@@ -2125,6 +2125,21 @@ body::-webkit-scrollbar-thumb:hover {
 #home-tourism .container .list .element.active .icon.concierge {
   background-image: url(../assets/home/tourism/light/nurse.svg);
 }
+#home-tourism .container .list .element.active .icon.rehab {
+  background-image: url(../facility_logo/light/Casuality.svg);
+}
+#home-tourism .container .list .element.active .icon.pharmacy {
+  background-image: url(../facility_logo/light/Pharmacy\ \(2\).svg);
+}
+#home-tourism .container .list .element.active .icon.op {
+  background-image: url(../facility_logo/light/Operation\ theatre.svg);
+}
+#home-tourism .container .list .element.active .icon.lab {
+  background-image: url(../facility_logo/light/Laboratory.svg);
+}
+#home-tourism .container .list .element.active .icon.nicu {
+  background-image: url(../facility_logo/light/NICU\ \(2\).svg);
+}
 #home-tourism .container .list .element .icon {
   height: 60px;
   width: 60px;
@@ -2152,6 +2167,24 @@ body::-webkit-scrollbar-thumb:hover {
 }
 #home-tourism .container .list .element .icon.concierge {
   background-image: url(../assets/home/tourism/dark/nurse.svg);
+}
+#home-tourism .container .list .element .icon.concierge {
+  background-image: url(../assets/home/tourism/dark/nurse.svg);
+}
+#home-tourism .container .list .element .icon.rehab {
+  background-image: url(../facility_logo/Casuality\ \(2\).svg);
+}
+#home-tourism .container .list .element .icon.nicu {
+  background-image: url(../facility_logo/NICU.svg);
+}
+#home-tourism .container .list .element .icon.lab {
+  background-image: url(../facility_logo/Laboratory\ \(2\).svg);
+}
+#home-tourism .container .list .element .icon.op {
+  background-image: url(../facility_logo/Operation\ theatre\ \(2\).svg);
+}
+#home-tourism .container .list .element .icon.pharmacy {
+  background-image: url(../facility_logo/Pharmacy.svg);
 }
 #home-tourism .container .list .element .title {
   font-size: 15px;
@@ -3016,7 +3049,7 @@ body::-webkit-scrollbar-thumb:hover {
   box-sizing: border-box;
   width: 100%;
   background-color: rgba(192, 7, 7, 0.608);
-  color: #ffffff;
+  color: #4f4d4d;
   font-size: 15px;
   font-family: "Open Sans", sans-serif;
   -webkit-transition: 400ms;
@@ -3202,7 +3235,7 @@ body::-webkit-scrollbar-thumb:hover {
   box-sizing: border-box;
   width: 100%;
   background-color: rgba(189, 4, 4, 0.538);
-  color: #ffffff;
+  color: #565656;
   font-size: 15px;
   font-family: "Open Sans", sans-serif;
   -webkit-transition: 400ms;
@@ -10279,5 +10312,8 @@ footer .container .right .row .icon.mail {
 
 
 #home-appointment > div > div.right.home-appointment-section > div > form > div.content-section > div.l-section > div.double-box > div:nth-child(1) > input{
+  color: white !important;
+}
+#cnt-appointment > div.left.home-appointment-section > div > form > div.content-section > div.l-section > div.double-box > div:nth-child(1) > input{
   color: white !important;
 }
